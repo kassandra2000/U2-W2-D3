@@ -10,6 +10,10 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
 
     <!-- Abbiamo bisogno di un sito web per un'agenzia di viaggi!
 
@@ -106,6 +110,16 @@ EXTRAS
       [type="submit"]:not(:disabled),
       button:not(:disabled) {
         width: auto;
+      }
+
+      .bi-person-circle::before {
+        font-size: 6vw;
+      }
+      [type="button"]:not(:disabled),
+      [type="reset"]:not(:disabled),
+      [type="submit"]:not(:disabled),
+      button:not(:disabled) {
+        width: max-content;
       }
     </style>
   </head>
@@ -478,10 +492,63 @@ EXTRAS
       </div>
     </div>
 
+    <div class="container">
+      <p class="fs-3 mt-4 fw-semibold text-center">Dicono di noi</p>
+      <div class="row">
+        <div class="col-1">
+          <i class="bi bi-person-circle text-secondary"></i>
+        </div>
+        <div class="col-11">
+          <h2>Username</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+            delectus accusamus magnam dolor ipsum! Corporis suscipit repellendus
+            vero porro fugit! Repellat ducimus et dolorem provident maxime
+            fugiat. Nam, quasi minima.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <i class="bi bi-person-circle text-secondary"></i>
+        </div>
+        <div class="col-11">
+          <h2>Username</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+            delectus accusamus magnam dolor ipsum! Corporis suscipit repellendus
+            vero porro fugit! Repellat ducimus et dolorem provident maxime
+            fugiat. Nam, quasi minima.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <i class="bi bi-person-circle text-secondary"></i>
+        </div>
+        <div class="col-11">
+          <h2>Username</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+            delectus accusamus magnam dolor ipsum! Corporis suscipit repellendus
+            vero porro fugit! Repellat ducimus et dolorem provident maxime
+            fugiat. Nam, quasi minima.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="bg-black  p-5 text-white d-flex align-items-center justify-content-center flex-column"
+    >
+      <button type="button m-5" class="btn btn-outline-success">Contattaci</button>
+      <p class="mt-3">© 2021 Kalina Travel LTD. All Rights Reserved.</p>
+    </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </body>
 </html>
